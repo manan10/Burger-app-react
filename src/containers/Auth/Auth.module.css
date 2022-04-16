@@ -1,0 +1,34 @@
+.Auth {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    box-shadow: 0 2px 3px #ccc;
+    border: 1px solid #eee;  
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.Logo1 {
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    padding: 8px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+
+@media (min-width: 500px){
+    .Auth {
+        width: 500px;
+    }
+
+    .Logo1 {
+        height: 150px;
+    }
+}
+
+input {
+    display : block
+}
